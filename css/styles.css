@@ -11,11 +11,12 @@
     margin-left: 3%;
     margin-right: 3%;
     border: 1px solid black;
-    width: 300px;
+    width: 25%;
     height: 150px;
+    background-color: #707070;
 }
 
-#section-title {
+.section-title {
     float: right;
     border: 1px solid black;
     width: 40%;
@@ -24,9 +25,22 @@
     font-size: 20px;
 }
 
+#section-1 {
+    background-color: #8db596;
+}
+
+#section-2 {
+    background-color: #92817a;
+}
+
+#section-3 {
+    background-color: #bedbbb;
+}
+
 #card-content {
     padding: 25px 10px 10px 10px;
     font-size: 16px;
+    color: white;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
